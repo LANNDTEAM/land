@@ -1048,7 +1048,7 @@ end
 
 if text == 'تحديث السورس✬:' and DevLANDW(msg) then 
 os.execute('rm -rf LAND.lua')
-os.execute('wget https://raw.githubusercontent.com/LANDDTEAM/LAND/main/LAND.lua')
+os.execute('wget https://raw.githubusercontent.com/LANNDTEAM/LAND/main/LAND.lua')
 send(msg.chat_id_, msg.id_,'✬:تم تحديث السورس \n✬:لديك اخر اصدار لسورس لاند \n✬:الاصدار » { 1.5v}')
 dofile('LAND.lua')  
 end
@@ -2299,7 +2299,7 @@ end
 return false
 end
 os.execute('rm -rf LAND.lua')
-os.execute('wget https://raw.githubusercontent.com/LANDDTEAM/LAND/main/LAND.lua')
+os.execute('wget https://raw.githubusercontent.com/LANNDTEAM/LAND/main/LAND.lua')
 send(msg.chat_id_, msg.id_,'✬:تم تحديث السورس \n✬:لديك اخر اصدار لسورس لاند \n✬:الاصدار » { 1.5v}')
 dofile('LAND.lua')  
 end
@@ -10060,7 +10060,7 @@ end
 if text and text:match("^(gpinfo)$") or text and text:match("^معلومات الكروب$") then
 function gpinfo(arg,data)
 -- vardump(data) 
-LANDdx(msg.chat_id_, msg.id_, '✬:ايدي المجموعة » ( '..msg.chat_id_..' )\n✬:عدد الادمنيه » ( *'..data.administrator_count_..' )*\n✬:عدد المحظورين » ( *'..data.kicked_count_..' )*\n✬:عدد الاعضاء » ( *'..data.member_count_..' )*\n', 'md') 
+LANNDx(msg.chat_id_, msg.id_, '✬:ايدي المجموعة » ( '..msg.chat_id_..' )\n✬:عدد الادمنيه » ( *'..data.administrator_count_..' )*\n✬:عدد المحظورين » ( *'..data.kicked_count_..' )*\n✬:عدد الاعضاء » ( *'..data.member_count_..' )*\n', 'md') 
 end 
 getChannelFull(msg.chat_id_, gpinfo, nil) 
 end
