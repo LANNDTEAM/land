@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 cd $HOME/LAND 
 install() {
-rm -rf $HOME/.telegBDm-cli
+rm -rf $HOME/.telegLDm-cli
 sudo apt-get update -y
-sudo apt-get upgBDde -y
+sudo apt-get upgLDde -y
 sudo apt-get install software-properties-common -y
 sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
 sudo luarocks install luasocket
